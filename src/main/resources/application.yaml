@@ -1,0 +1,12 @@
+spring:
+  rsocket:
+    server:
+      port: 7000
+      transport: websocket
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+      repositories:
+        type: auto
