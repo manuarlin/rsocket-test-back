@@ -2,7 +2,8 @@ spring:
   rsocket:
     server:
       port: 7000
-      transport: websocket
+#      transport: websocket
+      transport: tcp
   data:
     mongodb:
       database: test
